@@ -1,0 +1,4 @@
+---
+go_carbon::globals::package_provider: rpm
+go_carbon::globals::package_release: 1
+go_carbon::globals::package_url: https://github.com/lomik/go-carbon/releases/download/v<%= @version %>/<%= @package_name %>-<%= @version %><% if @package_release %><%= -@package_release %><% end %>.<%= @arch %>.rpm

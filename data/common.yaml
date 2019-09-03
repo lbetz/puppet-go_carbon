@@ -1,1 +1,7 @@
 ---
+go_carbon::globals::package_name: go-carbon
+go_carbon::globals::version: 0.14.0
+go_carbon::globals::conf_dir: /etc/go-carbon
+go_carbon::globals::log_dir: /var/log/go-carbon
+go_carbon::globals::user: carbon
+go_carbon::globals::group: carbon

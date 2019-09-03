@@ -1,0 +1,3 @@
+---
+go_carbon::globals::package_provider: aptitude
+go_carbon::globals::package_url: https://github.com/lomik/go-carbon/releases/download/v<%= @version %>_<%= @arch %>.deb
